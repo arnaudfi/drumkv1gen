@@ -50,11 +50,15 @@ has the following trivial format:
 - Comment lines start with a "#" character and are ignored
 - White-space lines and blank lines are ignored
 - All other lines should follow this syntax:
+  ```
   <note number> <path/filename>
+  ```
   e.g.
+  ```
   36 Drums/kick.wav
   38 Drums/snare.wav
   40 hihat.wav
+  ```
 
 This tool comes with a small example of a .map file and samples from
 which you can generate a .drumkv1 file yourself.
@@ -63,6 +67,7 @@ which you can generate a .drumkv1 file yourself.
 
 drumkv1gen is invoked like this:
 
+```
 $ drumkv1gen
 Usage: ./drumkv1gen [options] -d <dir> -n <name>
 Options:
@@ -73,19 +78,22 @@ Options:
  -o <name>        specifies name of output file (hint: use'.drumkv1' as extension)
  -f, --force      overwrite existing files
  -m <mapfile>     read mapping from <mapfile>
-
+```
 
 Example invocation in automatic mode:
+```
 $ drumkv1gen -d ~/media/samples/motorsounds/ -o motors.drumkv1
 TODO: Should print out how many samples were mapped, from..to
+```
 
 Example invocation in manual (mapping file) mode:
+```
 $ drumkv1gen -m tr808.map -o tr808.drumkv1
-
+```
 
 ## Hints
 
-(1) Absolute vs. relative paths
+### Absolute vs. relative paths
 
 The "-d" parameter (directory to read samples from) can be either an
 absolute or a relative path. When you use an absolute path, the paths
@@ -95,6 +103,7 @@ might be stored in a different path.
 For portability reasons, I therefore suggest to use relative path names
 and store the .drumkv1 file "near" your sample data, like so:
 
+```
 .
 ├── mydrums.drumkv1
 └── samples
@@ -102,15 +111,16 @@ and store the .drumkv1 file "near" your sample data, like so:
     ├── kickdrum.wav
     ├── open_hihat.wav
     └── snaredrum.wav
+```
 
 This way, you can archive the whole folder (samples + .drumkv1 file),
 transfer that archive to another computer, unpck it there and continue
 working with it immediately.
 
-(2) Files with white space in their name
+### Files with white space in their name
 
-Don't?!
-TODO: Do I process these correctly? NO; NOT YET!
+In freely available sample libraries you will often encounter sample files
+with white space in the name. drumkv1gen should process these correctly by now.
 
 ## License
 
