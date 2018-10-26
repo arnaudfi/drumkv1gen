@@ -1,0 +1,8 @@
+
+To build drumkv1gen, just run "make". It has minimal dependencies - just
+gcc and glibc-dev should be installed.
+
+The is no "make install" target right now - just copy the resulting binary
+"drumkv1gen" to a suitable path like /usr/local/bin/.
+
+

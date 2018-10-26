@@ -1,0 +1,25 @@
+
+# Map file for Roland TR909
+# taken from http://machines.hyperreal.org/manufacturers/Roland/TR-909/samples/TR909all.zip
+
+35 samples/BT0A0A7.WAV
+36 samples/BT7A0D0.WAV
+37 samples/RIM127.WAV
+38 samples/ST0T3S7.WAV
+39 samples/HANDCLP1.WAV
+40 samples/ST3T3S7.WAV
+
+42 samples/HHCD2.WAV
+44 samples/HHCD8.WAV
+
+45 samples/LT3D7.WAV
+46 samples/HHOD4.WAV
+47 samples/MT3D7.WAV
+48 samples/MTAD7.WAV
+49 samples/CSHD0.WAV
+
+50 samples/HTAD7.WAV
+51 samples/RIDED0.WAV
+52 samples/CSHDA.WAV
+59 samples/RIDED4.WAV
+

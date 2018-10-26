@@ -1,0 +1,27 @@
+
+TODO items:
+
+- output an .svg file that shows the keymap for the created file
+  -> alternatively: an "active" HTML page where hovering over a key
+     displays the file loaded onto it
+
+- set amp and filter env to "as long as possible" to avoid cutting of samples
+- allow user to specify initial key number in "folder-scan" mode (currently hardcoded to 36)
+
+- detect re-use of already mapped keys in map file and report them as a warning
+- add "plausibility check" (do referenced files exist at all?) and report them as such
+
+- write man page
+- add long options to help text
+- print out how many samples were mapped
+
+- when writing out the .drumkv1, als write out the .map file to allow further modifications by user
+- when writing out the files and they exist alrady, interactively ask user if ok to overwrite
+- -f option (force) still overwrites everything without asking
+- allow user to set MIDI # of first note in "directory scan" mode (default 36)
+
+Check:
+- is the path stored correctly when the .drumkv1 target is outside the sample dir?
+
+- next to each sample, also print out (in a comment line) the "natural name" of the
+  drum instrument that's assigned to it in the general MIDI mapping?

@@ -1,0 +1,26 @@
+
+# drumkv1gen map file for Roland TR808 kit
+# Taken from http://machines.hyperreal.org/manufacturers/Roland/TR-808/samples/TR808all.zip
+
+35 samples/TR808WAV/BD/BD1075.WAV
+36 samples/TR808WAV/BD/BD5075.WAV
+37 samples/TR808WAV/RS/RS.WAV
+38 samples/TR808WAV/SD/SD0075.WAV
+39 samples/TR808WAV/CP/CP.WAV
+
+42 samples/TR808WAV/CH/CH.WAV
+44 samples/TR808WAV/OH/OH00.WAV
+45 samples/TR808WAV/LT/LT00.WAV
+46 samples/TR808WAV/OH/OH50.WAV
+48 samples/TR808WAV/MT/MT00.WAV
+49 samples/TR808WAV/CY/CY5025.WAV
+
+50 samples/TR808WAV/HT/HT00.WAV
+56 samples/TR808WAV/CB/CB.WAV
+
+62 samples/TR808WAV/MC/MC00.WAV
+63 samples/TR808WAV/HC/HC00.WAV
+64 samples/TR808WAV/LC/LC00.WAV
+70 samples/TR808WAV/MA/MA.WAV
+75 samples/TR808WAV/CL/CL.WAV
+

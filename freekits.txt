@@ -1,0 +1,7 @@
+Roland_TR606  http://machines.hyperreal.org/manufacturers/Roland/TR-606/samples/            tr606kit.zip
+Roland_TR707  http://machines.hyperreal.org/manufacturers/Roland/TR-707/samples/            tr707.zip
+Roland_TR808  http://machines.hyperreal.org/manufacturers/Roland/TR-808/samples/            TR808all.zip
+Roland_TR909  http://machines.hyperreal.org/manufacturers/Roland/TR-909/samples/            TR909all.zip
+Roland_CR8000 http://machines.hyperreal.org/manufacturers/Roland/CompuRhythm/samples/       cr8kkit.zip
+Casio_RZ1     http://machines.hyperreal.org/manufacturers/Casio/RZ-1/samples/               casiorz1.zip
+VCS_2600      http://milkcrate.com.au/_other/downloads/sample_sets/                         little-scale_atari_2600_percussive_samples.zip
