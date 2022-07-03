@@ -4,4 +4,5 @@ Roland_TR808  http://machines.hyperreal.org/manufacturers/Roland/TR-808/samples/
 Roland_TR909  http://machines.hyperreal.org/manufacturers/Roland/TR-909/samples/            TR909all.zip
 Roland_CR8000 http://machines.hyperreal.org/manufacturers/Roland/CompuRhythm/samples/       cr8kkit.zip
 Casio_RZ1     http://machines.hyperreal.org/manufacturers/Casio/RZ-1/samples/               casiorz1.zip
+Korg_KR55     http://machines.hyperreal.org/manufacturers/Korg/KR-55/samples/               kr55kit.zip
 VCS_2600      http://milkcrate.com.au/_other/downloads/sample_sets/                         little-scale_atari_2600_percussive_samples.zip
