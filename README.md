@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Fork from [drumkv1gen](https://gitlab.com/AudioFranky/drumkv1gen) Frank Neumann
+Fork from [drumkv1gen](https://gitlab.com/AudioFranky/drumkv1gen) by Frank Neumann
 
 drumkv1gen is a small helper tool that lets you take a set of .wav
 files and create from that a mapping file for drumkv1, Rui Capela's
