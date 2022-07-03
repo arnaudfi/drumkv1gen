@@ -3,6 +3,7 @@
 ## What is it?
 
 Fork from [drumkv1gen](https://gitlab.com/AudioFranky/drumkv1gen) by Frank Neumann
+Add some drumkits and maps to get_free_kits.sh
 
 drumkv1gen is a small helper tool that lets you take a set of .wav
 files and create from that a mapping file for drumkv1, Rui Capela's
