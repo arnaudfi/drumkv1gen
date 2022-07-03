@@ -1,5 +1,5 @@
 <!DOCTYPE drumkv1>
-<preset version="0.9.3" name="Korg_KR55.drumkv1">
+<preset version="0.9.3" name="./mapfiles/Korg_KR55.drumkv1">
  <elements>
   <element index="35">
    <sample offset-start="0" index="0" name="GEN1_SAMPLE">samples/KR55KICK.WAV</sample>
@@ -291,7 +291,7 @@
     <param index="2" name="GEN1_OFFSET">0</param>
     <param index="3" name="GEN1_OFFSET_1">0</param>
     <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="5" name="GEN1_GROUP">1</param>
     <param index="6" name="GEN1_COARSE">0</param>
     <param index="7" name="GEN1_FINE" >0</param>
     <param index="8" name="GEN1_ENVTIME">1.0</param>
@@ -385,7 +385,7 @@
     <param index="2" name="GEN1_OFFSET">0</param>
     <param index="3" name="GEN1_OFFSET_1">0</param>
     <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="5" name="GEN1_GROUP">1</param>
     <param index="6" name="GEN1_COARSE">0</param>
     <param index="7" name="GEN1_FINE" >0</param>
     <param index="8" name="GEN1_ENVTIME">1.0</param>
