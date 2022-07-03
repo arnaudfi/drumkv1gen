@@ -31,7 +31,7 @@
  * - add optional "plausibility check" (do referenced files exist at all?)
  * - output a .svg file that shows the keymap for the created file
  * - set amp and filter env to "as long as possible" to avoid cutting of samples
- * - allow user to specify initial key number (currently hardcoded to 36)
+ * ? allow user to specify initial key number (currently hardcoded to 0 -> It was 36 in the original pgm : do not manage to make it an option)  
  * - detect re-use of already mapped keys in map file
  * x write man page?
  * x add long options to help text
@@ -47,7 +47,7 @@
 #define TRUE 1
 #define FALSE 0
 #define DRUMK1GEN_VERSION "0.2"
-#define MAX_SAMPLES (127-36)+1
+#define MAX_SAMPLES 128
 
 /*** INCLUDES ***/
 #include <stdio.h>
@@ -274,7 +274,7 @@ int process_dir(int flag_force, char *in_dirname, char *out_name)
 	char *namelist[1024];  /* hard-coded maximum table size for now */
 	char fullname[4096];
 	int i, num_entries = 0;
-	int key = 36;    /* first MIDI key to start with */
+	int key = 0;    /* first MIDI key to start with */
 
 	// <dir> must be a directory
 	dir = opendir(in_dirname);
