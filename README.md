@@ -4,7 +4,8 @@
 
 Forked from [drumkv1gen](https://gitlab.com/AudioFranky/drumkv1gen) by Frank Neumann  
 Whats new :
-- Add some drumkits and maps to get_free_kits.sh
+- Add some drumkits (with mapfiles) from http://machines.hyperreal.org to get_free_kits.sh 
+- Add a script get_free_kits_musicradar.sh to get drumkits from musicradar 
 - When using "mapping file" mode, highhats (midi 42, 44, 46) are in group 1 : open hihat is choked when hitting pedal hihat or closed hihat. 
 - When using "scanning folder" mode, start from key=0 (36 in the original version). 
 
