@@ -1,4 +1,4 @@
-# drumkv1gen2
+# drumkv1gen
 
 ## What is it?
 
