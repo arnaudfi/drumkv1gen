@@ -32,9 +32,13 @@ ls > ../listfolder
 
 while IFS= read -r line; do
 
+echo "making $line Drum Kit .drumkv1 files"
+
 cd "$line" 
+if [ -e "../../../../mapfiles/musicradar/Drum Kits/$line.map" ];then
 cp "../../../../mapfiles/musicradar/Drum Kits/$line.map" .
 cp "../../../../mapfiles/musicradar/Drum Kits/$line.drumkv1" .
+fi
 cd ..
 done < ../listfolder
 
@@ -42,7 +46,7 @@ rm ../listfolder
 
 
 # Now reorganize Assorted Kits
-echo "reorganize Assorted Kits"
+echo "reorganize Assorted Kits and making .drumkv1 files"
 
 # Cymbals
 cd "../Assorted Hits/Cymbals"

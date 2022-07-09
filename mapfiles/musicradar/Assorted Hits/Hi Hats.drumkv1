@@ -1,8 +1,1700 @@
 <!DOCTYPE drumkv1>
 <preset version="0.9.3" name="Hi Hats.drumkv1">
  <elements>
+  <element index="0">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Acoustic Hat-01.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">0</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="1">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Acoustic Hat-02.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">1</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="2">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Acoustic Hat-03.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">2</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="3">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Acoustic Hat-04.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">3</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="4">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Acoustic Hat-05.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">4</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="5">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Acoustic Hat-06.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">5</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="6">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-01.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">6</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="7">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-02.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">7</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="8">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-03.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">8</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="9">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-04.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">9</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="10">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-05.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">10</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="11">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-06.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">11</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="12">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-07.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">12</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="13">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-08.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">13</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="14">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-09.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">14</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="15">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-10.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">15</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="16">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-11.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">16</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="17">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-12.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">17</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="18">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-13.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">18</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="19">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_ClHat-14.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">19</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="20">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_HfHat-01.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">20</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="21">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_HfHat-02.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">21</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="22">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_HfHat-03.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">22</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="23">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_HfHat-04.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">23</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="24">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-01.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">24</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="25">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-02.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">25</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="26">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-03.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">26</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="27">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-04.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">27</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="28">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-05.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">28</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="29">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-06.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">29</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="30">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-07.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">30</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="31">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-08.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">31</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="32">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_OpHat-09.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">32</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="33">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_PdHat-01.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">33</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="34">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./CYCdh_Sab_PdHat-02.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">34</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
+  <element index="35">
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-01.wav</sample>
+   <params>
+    <param index="0" name="GEN1_SAMPLE">35</param>
+    <param index="1" name="GEN1_REVERSE">0</param>
+    <param index="2" name="GEN1_OFFSET">0</param>
+    <param index="3" name="GEN1_OFFSET_1">0</param>
+    <param index="4" name="GEN1_OFFSET_2">0</param>
+    <param index="5" name="GEN1_GROUP">0</param>
+    <param index="6" name="GEN1_COARSE">0</param>
+    <param index="7" name="GEN1_FINE" >0</param>
+    <param index="8" name="GEN1_ENVTIME">1.0</param>
+    <param index="9" name="DCF1_CUTOFF">1</param>
+    <param index="10" name="DCF1_RESO">0</param>
+    <param index="11" name="DCF1_TYPE">0</param>
+    <param index="12" name="DCF1_SLOPE">0</param>
+    <param index="13" name="DCF1_ENVELOPE">1</param>
+    <param index="14" name="DCF1_ATTACK">0</param>
+    <param index="15" name="DCF1_DECAY1">0.5</param>
+    <param index="16" name="DCF1_LEVEL2">0.2</param>
+    <param index="17" name="DCF1_DECAY2">0.5</param>
+    <param index="18" name="LFO1_SHAPE">1</param>
+    <param index="19" name="LFO1_WIDTH">1</param>
+    <param index="20" name="LFO1_BPM">180</param>
+    <param index="21" name="LFO1_RATE">0.5</param>
+    <param index="22" name="LFO1_SYNC">0</param>
+    <param index="23" name="LFO1_SWEEP">0</param>
+    <param index="24" name="LFO1_PITCH">0</param>
+    <param index="25" name="LFO1_CUTOFF">0</param>
+    <param index="26" name="LFO1_RESO">0</param>
+    <param index="27" name="LFO1_PANNING">0</param>
+    <param index="28" name="LFO1_VOLUME">0</param>
+    <param index="29" name="LFO1_ATTACK">0</param>
+    <param index="30" name="LFO1_DECAY1">0.5</param>
+    <param index="31" name="LFO1_LEVEL2">0.2</param>
+    <param index="32" name="LFO1_DECAY2">0.5</param>
+    <param index="33" name="DCA1_VOLUME">1</param>
+    <param index="34" name="DCA1_ATTACK">0</param>
+    <param index="35" name="DCA1_DECAY1">1</param>
+    <param index="36" name="DCA1_LEVEL2">1</param>
+    <param index="37" name="DCA1_DECAY2">0.5</param>
+    <param index="38" name="OUT1_WIDTH">0</param>
+    <param index="39" name="OUT1_PANNING">0</param>
+    <param index="40" name="OUT1_FXSEND">1</param>
+    <param index="41" name="OUT1_VOLUME">0.5</param>
+   </params>
+  </element>
   <element index="36">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/Acoustic Hat-01.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-02.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">36</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -49,7 +1741,7 @@
    </params>
   </element>
   <element index="37">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/Acoustic Hat-02.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-03.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">37</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -96,7 +1788,7 @@
    </params>
   </element>
   <element index="38">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/Acoustic Hat-03.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-04.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">38</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -143,7 +1835,7 @@
    </params>
   </element>
   <element index="39">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/Acoustic Hat-04.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-05.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">39</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -190,7 +1882,7 @@
    </params>
   </element>
   <element index="40">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/Acoustic Hat-05.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-06.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">40</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -237,7 +1929,7 @@
    </params>
   </element>
   <element index="41">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/Acoustic Hat-06.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-07.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">41</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -284,7 +1976,7 @@
    </params>
   </element>
   <element index="42">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-01.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-08.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">42</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -331,7 +2023,7 @@
    </params>
   </element>
   <element index="43">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-02.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-09.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">43</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -378,7 +2070,7 @@
    </params>
   </element>
   <element index="44">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-03.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-10.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">44</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -425,7 +2117,7 @@
    </params>
   </element>
   <element index="45">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-04.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Clsd-11.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">45</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -472,7 +2164,7 @@
    </params>
   </element>
   <element index="46">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-05.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats HlfOp-01.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">46</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -519,7 +2211,7 @@
    </params>
   </element>
   <element index="47">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-06.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats HlfOp-02.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">47</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -566,7 +2258,7 @@
    </params>
   </element>
   <element index="48">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-07.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats HlfOp-03.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">48</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -613,7 +2305,7 @@
    </params>
   </element>
   <element index="49">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-08.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-01.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">49</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -660,7 +2352,7 @@
    </params>
   </element>
   <element index="50">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-09.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-02.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">50</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -707,7 +2399,7 @@
    </params>
   </element>
   <element index="51">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-10.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-03.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">51</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -754,7 +2446,7 @@
    </params>
   </element>
   <element index="52">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-11.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-04.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">52</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -801,7 +2493,7 @@
    </params>
   </element>
   <element index="53">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-12.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-05.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">53</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -848,7 +2540,7 @@
    </params>
   </element>
   <element index="54">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-13.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-06.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">54</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -895,7 +2587,7 @@
    </params>
   </element>
   <element index="55">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_ClHat-14.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-07.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">55</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -942,7 +2634,7 @@
    </params>
   </element>
   <element index="56">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_HfHat-01.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-08.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">56</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -989,7 +2681,7 @@
    </params>
   </element>
   <element index="57">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_HfHat-02.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Open-09.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">57</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -1036,7 +2728,7 @@
    </params>
   </element>
   <element index="58">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_HfHat-03.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Pdl-01.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">58</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -1083,7 +2775,7 @@
    </params>
   </element>
   <element index="59">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_HfHat-04.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Pdl-02.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">59</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -1130,7 +2822,7 @@
    </params>
   </element>
   <element index="60">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-01.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Pdl-03.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">60</param>
     <param index="1" name="GEN1_REVERSE">0</param>
@@ -1177,1701 +2869,9 @@
    </params>
   </element>
   <element index="61">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-02.wav</sample>
+   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./KHats Pdl-04.wav</sample>
    <params>
     <param index="0" name="GEN1_SAMPLE">61</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="62">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-03.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">62</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="63">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-04.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">63</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="64">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-05.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">64</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="65">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-06.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">65</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="66">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-07.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">66</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="67">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-08.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">67</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="68">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_OpHat-09.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">68</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="69">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_PdHat-01.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">69</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="70">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/CYCdh_Sab_PdHat-02.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">70</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="71">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-01.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">71</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="72">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-02.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">72</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="73">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-03.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">73</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="74">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-04.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">74</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="75">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-05.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">75</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="76">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-06.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">76</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="77">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-07.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">77</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="78">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-08.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">78</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="79">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-09.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">79</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="80">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-10.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">80</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="81">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Clsd-11.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">81</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="82">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats HlfOp-01.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">82</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="83">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats HlfOp-02.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">83</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="84">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats HlfOp-03.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">84</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="85">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-01.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">85</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="86">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-02.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">86</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="87">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-03.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">87</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="88">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-04.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">88</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="89">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-05.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">89</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="90">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-06.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">90</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="91">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-07.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">91</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="92">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-08.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">92</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="93">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Open-09.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">93</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="94">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Pdl-01.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">94</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="95">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Pdl-02.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">95</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="96">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Pdl-03.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">96</param>
-    <param index="1" name="GEN1_REVERSE">0</param>
-    <param index="2" name="GEN1_OFFSET">0</param>
-    <param index="3" name="GEN1_OFFSET_1">0</param>
-    <param index="4" name="GEN1_OFFSET_2">0</param>
-    <param index="5" name="GEN1_GROUP">0</param>
-    <param index="6" name="GEN1_COARSE">0</param>
-    <param index="7" name="GEN1_FINE" >0</param>
-    <param index="8" name="GEN1_ENVTIME">1.0</param>
-    <param index="9" name="DCF1_CUTOFF">1</param>
-    <param index="10" name="DCF1_RESO">0</param>
-    <param index="11" name="DCF1_TYPE">0</param>
-    <param index="12" name="DCF1_SLOPE">0</param>
-    <param index="13" name="DCF1_ENVELOPE">1</param>
-    <param index="14" name="DCF1_ATTACK">0</param>
-    <param index="15" name="DCF1_DECAY1">0.5</param>
-    <param index="16" name="DCF1_LEVEL2">0.2</param>
-    <param index="17" name="DCF1_DECAY2">0.5</param>
-    <param index="18" name="LFO1_SHAPE">1</param>
-    <param index="19" name="LFO1_WIDTH">1</param>
-    <param index="20" name="LFO1_BPM">180</param>
-    <param index="21" name="LFO1_RATE">0.5</param>
-    <param index="22" name="LFO1_SYNC">0</param>
-    <param index="23" name="LFO1_SWEEP">0</param>
-    <param index="24" name="LFO1_PITCH">0</param>
-    <param index="25" name="LFO1_CUTOFF">0</param>
-    <param index="26" name="LFO1_RESO">0</param>
-    <param index="27" name="LFO1_PANNING">0</param>
-    <param index="28" name="LFO1_VOLUME">0</param>
-    <param index="29" name="LFO1_ATTACK">0</param>
-    <param index="30" name="LFO1_DECAY1">0.5</param>
-    <param index="31" name="LFO1_LEVEL2">0.2</param>
-    <param index="32" name="LFO1_DECAY2">0.5</param>
-    <param index="33" name="DCA1_VOLUME">1</param>
-    <param index="34" name="DCA1_ATTACK">0</param>
-    <param index="35" name="DCA1_DECAY1">1</param>
-    <param index="36" name="DCA1_LEVEL2">1</param>
-    <param index="37" name="DCA1_DECAY2">0.5</param>
-    <param index="38" name="OUT1_WIDTH">0</param>
-    <param index="39" name="OUT1_PANNING">0</param>
-    <param index="40" name="OUT1_FXSEND">1</param>
-    <param index="41" name="OUT1_VOLUME">0.5</param>
-   </params>
-  </element>
-  <element index="97">
-   <sample offset-start="0" index="0" name="GEN1_SAMPLE">./Hi Hats/KHats Pdl-04.wav</sample>
-   <params>
-    <param index="0" name="GEN1_SAMPLE">97</param>
     <param index="1" name="GEN1_REVERSE">0</param>
     <param index="2" name="GEN1_OFFSET">0</param>
     <param index="3" name="GEN1_OFFSET_1">0</param>
